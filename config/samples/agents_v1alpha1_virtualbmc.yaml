@@ -1,0 +1,7 @@
+apiVersion: agents.kemo.network/v1alpha1
+kind: VirtualBMC
+metadata:
+  name: virtualbmc-sample
+spec:
+  # Add fields here
+  foo: bar
