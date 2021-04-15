@@ -15,4 +15,13 @@ resources:
   kind: VirtualBMC
   path: github.com/kenmoini/node-agent-operator/api/v1alpha1
   version: v1alpha1
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: kemo.network
+  group: agents
+  kind: OVirt
+  path: github.com/kenmoini/node-agent-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"
